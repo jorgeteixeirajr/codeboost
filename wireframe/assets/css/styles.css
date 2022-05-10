@@ -55,6 +55,7 @@ header .container {
 .panel p {
   font-size: 2.4rem;
   width: 100%;
+  line-height: 150%;
   max-width: 59rem;
   margin-bottom: 5.6rem;
 }
@@ -82,6 +83,7 @@ header .container {
 .sub-title p {
   width: 100%;
   max-width: 100.8rem;
+  line-height: 150%;
   margin: 0 auto 8rem auto;
   text-align: center;
 }
@@ -144,6 +146,7 @@ h2 {
 .midias p {
   width: 100%;
   max-width: 66.8rem;
+  line-height: 150%;
   margin: 0 auto 8rem auto;
   text-align: center;
 }
