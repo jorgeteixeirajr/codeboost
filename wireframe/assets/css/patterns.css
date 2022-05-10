@@ -1,0 +1,12 @@
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h1,
+h2 {
+  color: var(--gray-scale-800);
+}

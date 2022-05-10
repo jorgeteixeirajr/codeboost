@@ -1,0 +1,175 @@
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 10.2rem;
+  background-color: var(--gray-scale-50);
+  display: flex;
+  margin-bottom: 8rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu__item {
+  margin-right: 4rem;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item a {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--gray-scale-700);
+}
+
+/* PANEL */
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10.4rem;
+}
+
+.panel h1 {
+  width: 100%;
+  max-width: 59.2rem;
+  line-height: 130%;
+  margin-bottom: 4rem;
+}
+
+.panel p {
+  font-size: 2.4rem;
+  width: 100%;
+  max-width: 59rem;
+  margin-bottom: 5.6rem;
+}
+
+.panel button {
+  border-radius: 8rem;
+}
+
+.panel button a {
+  display: inline-block;
+  padding: 1.6rem 16.9rem 1.6rem 17.3rem;
+  height: 5.6rem;
+}
+
+/* PRODUTOS */
+
+.sub-title h2 {
+  text-align: center;
+}
+
+.sub-title h2 {
+  margin-bottom: 3.2rem;
+}
+
+.sub-title p {
+  width: 100%;
+  max-width: 100.8rem;
+  margin: 0 auto 8rem auto;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2.4rem;
+  margin-bottom: 10.4rem;
+}
+
+.card__item img {
+  width: 100%;
+  max-width: 25rem;
+  cursor: pointer;
+}
+
+/* SOBRE NÓS */
+
+h2 {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10.4rem;
+}
+
+.sobre img {
+  width: 100%;
+  max-width: 36.8rem;
+}
+
+.sobre__descricao {
+  width: 100%;
+  max-width: 70rem;
+  font-size: 2.4rem;
+  line-height: 150%;
+}
+
+.sobre__descricao p:first-child {
+  margin-bottom: 3.2rem;
+}
+
+/* REDES SOCIAIS */
+
+.midias h2 {
+  text-align: center;
+}
+
+.midias h2 {
+  margin-bottom: 3.2rem;
+}
+
+.midias p {
+  width: 100%;
+  max-width: 66.8rem;
+  margin: 0 auto 8rem auto;
+  text-align: center;
+}
+
+.redes {
+  width: 100%;
+  max-width: 85.9rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16rem;
+}
+
+.rede__item a {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: var(--gray-scale-500);
+  display: flex;
+  height: 8rem;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
