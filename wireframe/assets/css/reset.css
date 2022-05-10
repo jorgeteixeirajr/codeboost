@@ -23,13 +23,7 @@ img {
   max-width: 100%;
 }
 
-button, a {
+button,
+a {
   cursor: pointer;
-}
-
-.container {
-  width: 100%;
-  max-width: 124.8rem;
-  margin: 0 auto;
-  padding-inline: 1.6rem;
 }

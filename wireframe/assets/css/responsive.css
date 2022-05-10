@@ -1,0 +1,193 @@
+@media (max-width: 1200px) {
+  .panel h1 {
+    font-size: 4rem;
+    max-width: 45rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .panel p {
+    font-size: 1.4rem;
+    max-width: 45rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .img__panel {
+    max-width: 40rem;
+  }
+
+  .sobre__descricao {
+    max-width: 56rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .panel h1 {
+    font-size: 3.2rem;
+    max-width: 36.1rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .panel p {
+    font-size: 1.4rem;
+    max-width: 40rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .img__panel {
+    max-width: 30rem;
+  }
+
+  .panel button a {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 18rem;
+    height: 4.8rem;
+  }
+
+  .sobre img {
+    display: none;
+  }
+
+  .sobre__descricao {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu__mobile {
+    display: block;
+  }
+
+  .panel {
+    justify-content: center;
+  }
+
+  .panel h1,
+  .panel p {
+    text-align: center;
+  }
+
+  .img__panel {
+    display: none;
+  }
+
+  .panel .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub-title h2 {
+    font-size: 2.4rem;
+  }
+
+  .sub-title p {
+    max-width: 40rem;
+  }
+
+  .cards {
+    margin-bottom: 8rem;
+  }
+
+  h2 {
+    margin-bottom: 4rem;
+  }
+
+  .sobre img {
+    display: none;
+  }
+
+  .sobre__descricao {
+    text-align: center;
+  }
+
+  .redes {
+    margin-bottom: 8rem;
+  }
+
+  footer {
+    height: 16.5rem;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 3.2rem 0;
+  }
+
+  footer span {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    margin-bottom: 4rem;
+  }
+
+  .logo img {
+    max-width: 10.3rem;
+  }
+
+  .panel {
+    justify-content: center;
+  }
+
+  .panel h1,
+  .panel p {
+    text-align: center;
+  }
+
+  .sub-title h2 {
+    font-size: 2rem;
+  }
+
+  .sub-title p {
+    font-size: 1.6rem;
+    max-width: 34.1rem;
+    margin: 0 auto 4rem auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .panel button a {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 10.4rem;
+  }
+
+  .midias p {
+    max-width: 34.1rem;
+    margin: 0 auto 4rem auto;
+  }
+
+  .redes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rede__item {
+    margin-bottom: 2.4rem;
+  }
+
+  .rede__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .rede__item img {
+    margin: 0 auto;
+  }
+
+  .rede__item a {
+    display: flex;
+    flex-direction: column;
+  }
+}

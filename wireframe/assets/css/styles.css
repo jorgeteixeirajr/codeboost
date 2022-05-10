@@ -32,6 +32,10 @@ header .container {
   color: var(--gray-scale-700);
 }
 
+.menu__mobile {
+  display: none;
+}
+
 /* PANEL */
 
 .panel {
