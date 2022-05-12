@@ -44,6 +44,10 @@
     height: 4.8rem;
   }
 
+  .card__item img {
+    max-width: 16rem;
+  }
+
   .container h2 {
     margin-bottom: 4rem;
   }
@@ -159,7 +163,6 @@
     margin: 0 auto 4rem auto;
   }
 
-  
   .container h2 {
     font-size: 2rem;
   }
@@ -171,7 +174,6 @@
     align-items: center;
     padding: 0.8rem 10.4rem;
   }
-
 
   .midias p {
     max-width: 34.1rem;
