@@ -1,0 +1,56 @@
+.resource {
+  padding-top: 9.8rem;
+  margin-bottom: 5.8rem;
+  .container {
+    .resource-text {
+      margin-bottom: 5.3rem;
+      @include flex(row, center, space-between);
+      h3 {
+        width: 100%;
+        max-width: 50.2rem;
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 130%;
+        color: $gray-01;
+      }
+      span {
+        max-width: 28.6rem;
+        font-weight: 500;
+        line-height: 150%;
+        color: $gray-02;
+      }
+    }
+    .resource-itens {
+      @include flex(row, center, space-between);
+      gap: 8.8rem;
+      border-bottom: 0.3rem solid rgba(95, 60, 161, 0.1);
+    }
+    .resource-item {
+      @include flex(column, center, center);
+      width: 100%;
+      max-width: 29.3rem;
+      text-align: center;
+      .resource-icon {
+        @include flex(row, center, center);
+        width: 6.4rem;
+        height: 6.4rem;
+        border-radius: 1.2rem;
+        background-color: rgba(197, 190, 220, 0.1);
+        margin-bottom: 3rem;
+      }
+      strong {
+        margin-bottom: 2rem;
+        font-weight: 800;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: $brand-purple;
+      }
+      p {
+        line-height: 165%;
+        color: $gray-02;
+        margin-bottom: 6.5rem;
+      }
+    }
+  }
+}

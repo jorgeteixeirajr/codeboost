@@ -6,6 +6,7 @@ header {
   height: 11.9rem;
   background-color: $brand-purple;
   display: flex;
+  z-index: 2022;
   .container {
     @include flex(row, center, space-between);
   }
