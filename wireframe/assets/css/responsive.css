@@ -15,6 +15,10 @@
     max-width: 40rem;
   }
 
+  .card__item img {
+  max-width: 20rem;
+}
+
   .sobre__descricao {
     max-width: 56rem;
   }
@@ -45,7 +49,7 @@
   }
 
   .card__item img {
-    max-width: 16rem;
+    max-width: 18rem;
   }
 
   .container h2 {
@@ -101,6 +105,10 @@
 
   .cards {
     margin-bottom: 8rem;
+  }
+
+   .card__item img {
+    max-width: 16rem;
   }
 
   h2 {
@@ -161,6 +169,10 @@
     font-size: 1.6rem;
     max-width: 34.1rem;
     margin: 0 auto 4rem auto;
+  }
+
+   .card__item img {
+    max-width: 14rem;
   }
 
   .container h2 {
