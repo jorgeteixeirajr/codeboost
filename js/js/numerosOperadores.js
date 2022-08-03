@@ -18,3 +18,12 @@ let divisao = idade / anoNascimento;
 let expoente = idade ** anoNascimento;
 
 let notNumber = diaNascimento / 5; // NaN (Not a Number)
+
+// Operadores unários
+
+let incremento = 10;
+
+console.log(incremento++); // 10 incrementa na seguinte ação
+console.log(++incremento); // 12 incrementa na hora
+console.log(incremento--); // 12 decrementa na seguinte ação
+console.log(--incremento); // 11 decrementa na hora
