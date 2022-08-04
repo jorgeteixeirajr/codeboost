@@ -27,3 +27,7 @@ for (var i = 0; i < livros.length; i++) {
 // item
 // index
 // array
+
+livros.forEach(function (i) {
+  console.log(i);
+});
