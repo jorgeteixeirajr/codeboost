@@ -3,11 +3,8 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
+  font-size: 62.5%;
   font-family: "Arial", sans-serif;
-}
-
-body {
-  margin: 3rem;
 }
 
 hr {
@@ -15,7 +12,55 @@ hr {
   border-color: #b1b1b1;
 }
 
+/* MENU NAV */
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8rem;
+  z-index: 5;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li:not(:first-child) {
+  margin-left: 1.6rem;
+}
+
+header ul li a {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #000;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+header ul li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 /* NAVEGAÇÃO POR TABS */
+
+.navegationTabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 8rem);
+}
 
 .nav-tabs {
   display: flex;
@@ -83,14 +128,25 @@ hr {
 
 /* ACCORDION */
 
+.accordionMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 8rem);
+  background-color: #eee;
+}
+
 .accordion {
   border: 2px solid #000;
   border-radius: 8px;
   margin-bottom: 1.5rem;
+  width: 100%;
 }
 
 .accordion .title {
-  font-size: 1.4rem;
+  font-size: 2rem;
   padding: 1.5rem;
   display: flex;
   align-content: center;
@@ -127,6 +183,7 @@ hr {
 
 .accordion.active p {
   display: block;
+  font-size: 1.6rem;
   padding: 1.5rem;
   line-height: 1.6rem;
   animation: fadeIn 0.3s forwards;
