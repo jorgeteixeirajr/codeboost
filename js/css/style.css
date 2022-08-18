@@ -261,12 +261,12 @@ header ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateX(-20px);
+  transform: translateY(20px);
   transition: transform 0.3s;
 }
 
 .modal.active .box {
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .modal .box .close {
