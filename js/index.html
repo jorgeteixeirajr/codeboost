@@ -15,6 +15,7 @@
     <ul class="nav js-nav">
       <li><a href="#tab">Navegação por tabs</a></li>
       <li><a href="#accord">Accordion</a></li>
+      <li><a href="#mod">Modal</a></li>
     </ul>
   </header>
 
@@ -108,12 +109,28 @@
 
   </section>
 
+  
+  <!-- MODAL -->
 
+  <section class="modalMain" id="mod">
+
+    <button class="button js-open-modal">Abrir Modal</button>
+
+    <div class="modal" id="js-modal">
+      <div class="overlay"></div>
+      <div class="box">
+        <button class="close js-close-modal">Fechar</button>
+        <h2>Conteudo modal</h2>
+      </div>
+    </div>
+
+  </section>
 
   <script src="./js/script.js"></script>
+  <script src="./js/scrollsmooth.js"></script>
   <script src="./js/navegacaoTabs.js"></script>
   <script src="./js/accordion.js"></script>
-  <script src="./js/scrollsmooth.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
